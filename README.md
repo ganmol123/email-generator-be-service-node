@@ -1,0 +1,1 @@
+# email-generator-be-service-node
