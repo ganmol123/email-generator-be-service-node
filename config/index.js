@@ -6,4 +6,6 @@ module.exports = {
   API_KEY: process.env.API_KEY,
   SENDGRID_API_KEY: process.env.SENDGRID_API_KEY,
   SENDER_MAIL: process.env.SENDER_MAIL,
+  WHITELIST: process.env.WHITELIST,
+  TEMEPERATURE: process.env.TEMEPERATURE,
 };

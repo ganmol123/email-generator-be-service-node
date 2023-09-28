@@ -1,3 +1,3 @@
 module.exports = {
-  EMAIL: "d-8960021b30d7487c9d69f703f0c50d39",
+  EMAIL: "d-c0e252fee74c49ee96311b9427e5e608",
 };
