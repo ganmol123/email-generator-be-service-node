@@ -23,10 +23,3 @@ jobs:
 
       - name: Run Tests
         run: npm test
-
-      - name: Deploy to Google App Engine
-        uses: GoogleCloudPlatform/github-actions/deploy-appengine@main
-        with:
-          credentials: ${{ secrets.GCP_SA_KEY }}
-          project_id: ${{ secrets.GCP_PROJECT_ID }}
-          app_dir: "./" # Replace with the path to your app directory
